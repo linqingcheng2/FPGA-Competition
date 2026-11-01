@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "coefficients": 12288,
+  "bit_exact": true,
+  "source_sha256": {
+    "rtl/twiddle_cos.mem": "9cc9b6eb85aee508d956af6162efcc839da659cca0e567dd8b73b79e09ac5590",
+    "rtl/twiddle1.mem": "55cf91797bc3e1372beadbe4d4bdf66568fd4e9f4c8d1aa0c81e7430eb80a985",
+    "rtl/twiddle2.mem": "2d561fea1a0cb682291693006ae2f1209d3983a42743415fae082dabb236f7f4",
+    "rtl/twiddle3.mem": "62d6ee0c82f36b7fe1e088cbac14ef0e8f4bf243c15a13f641e38ad936218790",
+    "rtl/fft4.v": "f8a04c1c028fd33969e16945a0017ea684af686d6689a71e116325e5cc3c060c",
+    "scripts/check_coefficients.py": "7a0ab2d78d2064180410f68773150141d516490da84884be557be74f6cef917c"
+  }
+}

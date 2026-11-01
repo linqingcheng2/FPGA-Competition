@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Oct  9 20:35:28 2026
+| Host         : LAPTOP-7AQHR2JQ running 64-bit major release  (build 9200)
+| Command      : report_clocks -file [archived file path]
+| Design       : competition_top
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock                                                                                       Period(ns)  Waveform(ns)    Attributes  Sources
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  33.000      {0.000 16.500}  P           {dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK}
+sys_clk_pin                                                                                 8.000       {0.000 4.000}   P           {sysclk}
+parallel_clk                                                                                8.000       {0.000 4.000}   P,G         {clock_generator/output_buffer/O}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : parallel_clk
+Master Source       : sysclk
+Master Clock        : sys_clk_pin
+Divide By           : 1
+Generated Sources   : {clock_generator/output_buffer/O}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+From Clock                                                                                  To Clock                                                                                    Setup(ns)  Hold(ns)  Edges
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK             0.000     rf -> rf
+parallel_clk                                                                                parallel_clk                                                                                0.000      0.000     rf -> rf
+
+
+====================================================
+User Jitter
+====================================================
+
+Clock        Jitter(ns)
+sys_clk_pin  0.080
+

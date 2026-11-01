@@ -1,0 +1,196 @@
+{
+  "passed": true,
+  "source": "aggregate_of_completed_component_tests",
+  "checked_utc": "2026-10-09T12:02:44.208518+00:00",
+  "results": [
+    {
+      "proof": "temporal4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "a608d76e6592b7a5745f3763b20c4eab98c08e309b35f9d7feed6ecb0b3710c8",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "temporal4_large_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "7aadf4912eef33749ce50306aacb6ec00da1e76f44e9668ae2e2f073b4f4291b",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "spectrum4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "ccee650a1a3680121e42f484054241882dd2bf23993d7d530b7e64b5ec0ba62d",
+      "matched_source_files": 4
+    },
+    {
+      "proof": "source4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "92a92fab97767d879f366dcaf86fcbd27f7e9e591d2c326cf1a52e98881e550a",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "source_selection_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "4a51cc00a351404b8c4d0b0b1fc378d58981bd7ecaf058190408918eb5ddd43f",
+      "matched_source_files": 4
+    },
+    {
+      "proof": "replay_commands_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "ea160cf0091da64a3aeb1aed25e147612585796481f75d8d57e92810d1badb79",
+      "matched_source_files": 8
+    },
+    {
+      "proof": "window4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "f799f7c610eed9e557d73f37684e72f2598250865aefc638f99ec971f7eb0700",
+      "matched_source_files": 5
+    },
+    {
+      "proof": "scope4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "4f60043bb9413bd60caac7db149e2fb8c66dfffd09f65c6c960e366a7e35ff31",
+      "matched_source_files": 1
+    },
+    {
+      "proof": "dense4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "f901dcf69dd1e02c1763aa8c9c3b61dcfe05157b8fd0d3b97fc9551ad8d690c6",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "clock4_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "54eb34eeb92a6e3fcad53a08487feae0960bc376a0b5c6ee4dd9ba0ac4d6edfe",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "ui_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "80829d098ed46e9b10b0dddccb976a7700083f2ccc20318a8d37cda30974c296",
+      "matched_source_files": 21
+    },
+    {
+      "proof": "board_acceptance_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "c3e9169fd6f6966e3ec69ca3bf58570d57995715dc6c1a98578de6224963d529",
+      "matched_source_files": 4
+    },
+    {
+      "proof": "native_cache_guard_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "6ccf195af368ab801ebc4fc7407bb742c43562ac1b03d912f523b4e269c0ee6f",
+      "matched_source_files": 3
+    },
+    {
+      "proof": "transport_offline_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "01f8315e07b6478e8a9e7dc266841219cec3f2b7252cd4666dc839489f176312",
+      "matched_source_files": 3
+    },
+    {
+      "proof": "axi_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "9e610477f30064fd945edbe9cd277eb684e37e5334cddf8040199e59e2216086",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "final_protocol_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "03aaed9a50260a0c13fa3fd3b8c0e28fdbed2e37549c4eb8284d163f2193dea5",
+      "matched_source_files": 9
+    },
+    {
+      "proof": "recovery_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "e38b61228c82d973224b3f66396f7799eb0575e03643fd41c62f858dcd7406ba",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "coefficients_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "6fa69dc8ac62a7228c6f255b732703526c57dc019816f912965bc08420dbbe63",
+      "matched_source_files": 6
+    },
+    {
+      "proof": "precision_rounding_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "6afa8a3d48d55efa8ef20af675c7599aaacb281753941a58e2e06789dd66b88e",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "precision_ui_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "64486cb3b9a9d8c1d5f790f9f962460d733ed98dab424fc74327fedbf851a076",
+      "matched_source_files": 6
+    },
+    {
+      "proof": "precision_gain_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "b21044f12fbba85b86be6d1999d05fb884b0f4902aed573308f00e970290bad5",
+      "matched_source_files": 3
+    },
+    {
+      "proof": "capture_cancel_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "7ade79b28db0fca1fb81a87e9668f1977acd7cc318c629375c5b1c5aaa761efd",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "firmware_guard_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "a930f3cef40f52f42f20ad8770a7f8f8f02f81fa931854913d77696f7f4415f0",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "top_native_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "77b550b5750cec84c29e6a98cf1d4e0f5c8e627dfba8816c229ee4bbb1e25ba6",
+      "matched_source_files": 31
+    },
+    {
+      "proof": "stream_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "fe92ab6f8af46c39f17ecfd4d6f76725de03cc3286ff89b948975e421c6541e2",
+      "matched_source_files": 3
+    },
+    {
+      "proof": "rms_pipeline_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "f3d0c4cfde5e7c607075adfe0a754c8e4e88f6617d075b0d7a2dcbd56206a9e4",
+      "matched_source_files": 2
+    },
+    {
+      "proof": "release_acceptance_verification.json",
+      "passed": true,
+      "source_mismatches": [],
+      "proof_sha256": "d390bdd6b53ce8ccc8aa05f85a69514ffd9f7c786891ceb58ba4df18f36dae9a",
+      "matched_source_files": 4
+    }
+  ]
+}

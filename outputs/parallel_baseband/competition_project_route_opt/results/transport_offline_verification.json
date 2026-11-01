@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": 30,
+  "source": "offline_integrity_and_rendering",
+  "plot_old_median_ms": 5.186800000956282,
+  "plot_new_median_ms": 0.18799999998009298,
+  "plot_speedup": 27.58936171013566,
+  "source_sha256": {
+    "host/bulk_capture.py": "10480c8b9a1bcbd46aa6b4a9bc20f49b47437cfc21507a7960a577db6db4e48a",
+    "scripts/live_bridge.tcl": "3125b13b37a19922e572a44e0fda25bd2a8540532f44d6049e4bca5dcd944c92",
+    "../measurement_console_route_opt/plotting.py": "b0d0083cd98d11e62db473f63e082c4ab38e7ce715cd32384d9bed940649d2cc"
+  }
+}

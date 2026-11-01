@@ -1,0 +1,250 @@
+[
+  {
+    "name": "tone8k",
+    "n": 8192,
+    "kind": "tone",
+    "frequency": 50000000,
+    "frequency2": 0,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "negative8k",
+    "n": 8192,
+    "kind": "tone",
+    "frequency": -120000000,
+    "frequency2": 0,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "zero8k",
+    "n": 8192,
+    "kind": "zero",
+    "frequency": 0,
+    "frequency2": 0,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "hann8k",
+    "n": 8192,
+    "kind": "tone",
+    "frequency": 50000000,
+    "frequency2": 0,
+    "hann": true,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "burst8k",
+    "n": 8192,
+    "kind": "burst",
+    "frequency": 50000000,
+    "frequency2": 0,
+    "hann": false,
+    "burst": true,
+    "burst_length": 1001,
+    "frames": 4
+  },
+  {
+    "name": "wrap16k",
+    "n": 16384,
+    "kind": "wrap_chirp",
+    "frequency": 210000000,
+    "frequency2": -210000000,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "tone16k",
+    "n": 16384,
+    "kind": "tone",
+    "frequency": 90000000,
+    "frequency2": 0,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "hann16k",
+    "n": 16384,
+    "kind": "chirp",
+    "frequency": -160000000,
+    "frequency2": 160000000,
+    "hann": true,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "edge16k",
+    "n": 16384,
+    "kind": "tone",
+    "frequency": 249969482.421875,
+    "frequency2": 0,
+    "hann": true,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "wide8k",
+    "n": 8192,
+    "kind": "wide",
+    "frequency": -240000000,
+    "frequency2": 240000000,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "flat_high16k",
+    "n": 16384,
+    "kind": "wide",
+    "frequency": 150000000,
+    "frequency2": 200000000,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "flat_hann16k",
+    "n": 16384,
+    "kind": "wide",
+    "frequency": -100000000,
+    "frequency2": 200000000,
+    "hann": true,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "flat_negative16k",
+    "n": 16384,
+    "kind": "wide",
+    "frequency": -225000000,
+    "frequency2": -175000000,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "zero16k",
+    "n": 16384,
+    "kind": "zero",
+    "frequency": 0,
+    "frequency2": 0,
+    "hann": true,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "qpsk8k",
+    "n": 8192,
+    "kind": "pn_qpsk",
+    "frequency": 0,
+    "frequency2": 0,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "two_tone8k",
+    "n": 8192,
+    "kind": "two_tone",
+    "frequency": -150000000,
+    "frequency2": 130000000,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "rails8k",
+    "n": 8192,
+    "kind": "external_rails",
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4
+  },
+  {
+    "name": "user_chirp16k",
+    "n": 16384,
+    "hann": true,
+    "burst": false,
+    "frames": 4,
+    "original_capture": "ARCHIVE_PATH/20261008_190730_7f2beb8f",
+    "vector_sha256": "df2d95518e580997c72293e27373bfce2a2dad2ba1d03c7f11c5f848166a8b0c"
+  },
+  {
+    "name": "user_qpsk16k",
+    "n": 16384,
+    "hann": true,
+    "burst": false,
+    "frames": 4,
+    "original_capture": "ARCHIVE_PATH/20261008_190623_7cc76e7c",
+    "vector_sha256": "24220ff75e4b2cd61af491fcf846666b55d5eb0ed2f08f0a4b0124faa5c877ae"
+  },
+  {
+    "name": "wide_low16k",
+    "n": 16384,
+    "hann": false,
+    "burst": false,
+    "frames": 4
+  },
+  {
+    "name": "wide_full16k",
+    "n": 16384,
+    "hann": false,
+    "burst": false,
+    "frames": 4
+  },
+  {
+    "name": "small_tone16k",
+    "n": 16384,
+    "hann": false,
+    "burst": false,
+    "frames": 4
+  },
+  {
+    "name": "varying_tone8k",
+    "n": 8192,
+    "kind": "tone",
+    "frequency": 50000000,
+    "frequency2": 0,
+    "hann": false,
+    "burst": false,
+    "burst_length": null,
+    "frames": 4,
+    "frame_shift": 4,
+    "native_only": true
+  },
+  {
+    "name": "varying_qpsk16k",
+    "n": 16384,
+    "hann": true,
+    "burst": false,
+    "frames": 4,
+    "original_capture": "ARCHIVE_PATH/20261008_190623_7cc76e7c",
+    "vector_sha256": "24220ff75e4b2cd61af491fcf846666b55d5eb0ed2f08f0a4b0124faa5c877ae",
+    "frame_shift": 4,
+    "native_only": true
+  }
+]

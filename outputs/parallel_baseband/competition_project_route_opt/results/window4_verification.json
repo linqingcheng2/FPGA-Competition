@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "samples": 98304,
+  "both_sizes": true,
+  "every_coefficient": true,
+  "valid_gaps": true,
+  "frame_wrap_and_reset": true,
+  "source_sha256": {
+    "rtl\\window4.v": "3aa6019f4066fa7153de6b35e09f67a02063fb91283a09b92299966466ce9d84",
+    "rtl\\hann_big0.mem": "557fdcb2439ccb3e1d0c907562248a6d8d3f8d5daff20dd084fad18cabb2efc6",
+    "rtl\\hann_big1.mem": "01f43cd539dc94090e090b1bd7aeac1d048551e88e17a00943c738b15dd9e1ab",
+    "rtl\\hann_big2.mem": "9e23d0864c9e6299de7d6d208cbb29e8ffff5090a8f5b57060fbc7d05abef176",
+    "rtl\\hann_big3.mem": "5c1581bf97bd5302d59bb0b416a8180743b6397cba55f367a426b33b769d07b4"
+  }
+}

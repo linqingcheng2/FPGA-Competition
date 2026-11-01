@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "fixtures_are_not_board_evidence": true,
+  "checks": [
+    "complete_matching_offline_fixture",
+    "unprepared_firmware_rejected",
+    "unhashed_bitstream_rejected",
+    "missing_requirement_source_rejected",
+    "evidence_raw_AXI_True_True",
+    "evidence_raw_ILA_VIO_True_True",
+    "evidence_software_True_True",
+    "evidence_raw_AXI_False_True",
+    "evidence_raw_AXI_True_False",
+    "historical_Hann_model_mismatch_rejected",
+    "unchanged_rectangle_history_supported",
+    "center_and_edges_match_independent_fixture_at_Nyquist_boundary"
+  ],
+  "source_sha256": {
+    "scripts\\check_precision_ui.py": "6aab7354b30054a8ec2001e17509194701958ba293ca06a90fa07874c1c617af",
+    "../measurement_console_route_opt\\compliance.py": "e72c78e3d46a72bb1f91b22c933db5723d9e1fe1aca022de801f943e5beafcb1",
+    "../measurement_console_route_opt\\compliance_view.py": "9d816e479ce6dc2606dcf3e4c453eebbd7af20dc2a491c5ceb72bfae52f23253",
+    "../measurement_console_route_opt\\comparison.py": "229e5211dfddbcc8c136fde67f4e27e37c37e26d4ffc34f8c01e93057b798241",
+    "host\\analysis.py": "f682c84c6618ee724e90519ffe28b994c43a0be8b18ead0bec85428883d47efa",
+    "reference\\official_problem.pdf": "675e18e5f3b5b9cfe155eb8812e850340c8005cd18357ff3755d214033df2c16"
+  }
+}

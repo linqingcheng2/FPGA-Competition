@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "checks": [
+    "cancel_during_attach_does_not_publish",
+    "cancel_during_validation_does_not_publish",
+    "cancel_during_export_does_not_publish",
+    "cancel_marked_synchronously_before_transport_thread",
+    "queued_capture_cancelled_before_Tk_publish_keeps_previous_frame"
+  ],
+  "source_sha256": {
+    "host/app.py": "dc821ec772492ad3f34d89f2cf4cf35da16816680b94d5dd334a4dea7ddaad7d",
+    "scripts/check_capture_cancel.py": "92a5fe022941eac8f0cc5f68e6e02b057c9da7af202c35725eef6e1da25695ac"
+  }
+}

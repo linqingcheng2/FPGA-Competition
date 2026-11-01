@@ -1,0 +1,3 @@
+开发板：Digilent Zybo Z7-20
+芯片：Zynq-7020
+Vivado 器件型号：xc7z020clg400-1

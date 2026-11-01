@@ -1,0 +1,252 @@
+{
+  "passed": true,
+  "source": "new_native_simulation_vs_preserved_previous_actual_board",
+  "new_board_test": false,
+  "cases": [
+    {
+      "name": "user_chirp16k",
+      "old_actual_board_folder": "ARCHIVE_PATH/20261008_190730_7f2beb8f",
+      "old_block_exponent": 15,
+      "old_quality": {
+        "weak_reference_range_dbc": [
+          -90,
+          -40
+        ],
+        "weak_reference_bins": 11072,
+        "weak_zero_fraction": 0.9923229768786127,
+        "weak_relative_l1_error": 0.22412182791671525,
+        "outside_reference_energy_ratio": 5.749963409675887e-05,
+        "outside_excess_energy_ratio": 1.2154559845563177e-07,
+        "power_quantum": 1073741824.0,
+        "power_quantization_step_dbc": -46.42954627645581,
+        "outside_reference_peak_dbc": -29.995019511593938,
+        "flat_top": true,
+        "reference_flat_bins": 208,
+        "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+      },
+      "old_error_against_current_reference": 0.0009324427529502526,
+      "new_native_frames": [
+        {
+          "frame": 0,
+          "exponent": 9,
+          "quantum_improvement_db": 36.123599479677736,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 11072,
+            "weak_zero_fraction": 0.28260476878612717,
+            "weak_relative_l1_error": 0.005893754333089346,
+            "outside_reference_energy_ratio": 5.7890835311024265e-05,
+            "outside_excess_energy_ratio": 1.4701615505604676e-08,
+            "power_quantum": 262144.0,
+            "power_quantization_step_dbc": -82.55314575613355,
+            "outside_reference_peak_dbc": -30.235163302965297,
+            "flat_top": true,
+            "reference_flat_bins": 208,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 1.3788288723120665e-05
+        },
+        {
+          "frame": 1,
+          "exponent": 9,
+          "quantum_improvement_db": 36.123599479677736,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 11072,
+            "weak_zero_fraction": 0.28260476878612717,
+            "weak_relative_l1_error": 0.005893754333089346,
+            "outside_reference_energy_ratio": 5.7890835311024265e-05,
+            "outside_excess_energy_ratio": 1.4701615505604676e-08,
+            "power_quantum": 262144.0,
+            "power_quantization_step_dbc": -82.55314575613355,
+            "outside_reference_peak_dbc": -30.235163302965297,
+            "flat_top": true,
+            "reference_flat_bins": 208,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 1.3788288723120665e-05
+        },
+        {
+          "frame": 2,
+          "exponent": 9,
+          "quantum_improvement_db": 36.123599479677736,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 11072,
+            "weak_zero_fraction": 0.28260476878612717,
+            "weak_relative_l1_error": 0.005893754333089346,
+            "outside_reference_energy_ratio": 5.7890835311024265e-05,
+            "outside_excess_energy_ratio": 1.4701615505604676e-08,
+            "power_quantum": 262144.0,
+            "power_quantization_step_dbc": -82.55314575613355,
+            "outside_reference_peak_dbc": -30.235163302965297,
+            "flat_top": true,
+            "reference_flat_bins": 208,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 1.3788288723120665e-05
+        },
+        {
+          "frame": 3,
+          "exponent": 9,
+          "quantum_improvement_db": 36.123599479677736,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 11072,
+            "weak_zero_fraction": 0.28260476878612717,
+            "weak_relative_l1_error": 0.005893754333089346,
+            "outside_reference_energy_ratio": 5.7890835311024265e-05,
+            "outside_excess_energy_ratio": 1.4701615505604676e-08,
+            "power_quantum": 262144.0,
+            "power_quantization_step_dbc": -82.55314575613355,
+            "outside_reference_peak_dbc": -30.235163302965297,
+            "flat_top": true,
+            "reference_flat_bins": 208,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 1.3788288723120665e-05
+        }
+      ],
+      "original_iq_sha256": "df2d95518e580997c72293e27373bfce2a2dad2ba1d03c7f11c5f848166a8b0c",
+      "native_verification_sha256": "250277e2f64c3ef36ffb99a2906e8ca253feba4b07f5cc4e1210fa413969bbe2",
+      "baseline_uses_legacy_Hann_rounding": true
+    },
+    {
+      "name": "user_qpsk16k",
+      "old_actual_board_folder": "ARCHIVE_PATH/20261008_190623_7cc76e7c",
+      "old_block_exponent": 15,
+      "old_quality": {
+        "weak_reference_range_dbc": [
+          -90,
+          -40
+        ],
+        "weak_reference_bins": 6143,
+        "weak_zero_fraction": 0.13657821911118345,
+        "weak_relative_l1_error": 0.04190072572275434,
+        "outside_reference_energy_ratio": 0.012816644833580563,
+        "outside_excess_energy_ratio": 3.847140165710718e-05,
+        "power_quantum": 1073741824.0,
+        "power_quantization_step_dbc": -56.10499385556196,
+        "outside_reference_peak_dbc": -29.94549333899795,
+        "flat_top": false,
+        "reference_flat_bins": 1,
+        "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+      },
+      "old_error_against_current_reference": 0.0010699733944685773,
+      "new_native_frames": [
+        {
+          "frame": 0,
+          "exponent": 11,
+          "quantum_improvement_db": 24.0823996531185,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 6143,
+            "weak_zero_fraction": 0.004069672798307016,
+            "weak_relative_l1_error": 0.0019191385575473292,
+            "outside_reference_energy_ratio": 0.012829919174915817,
+            "outside_excess_energy_ratio": 4.842637673070248e-06,
+            "power_quantum": 4194304.0,
+            "power_quantization_step_dbc": -80.18739350868046,
+            "outside_reference_peak_dbc": -30.004550424415143,
+            "flat_top": false,
+            "reference_flat_bins": 1,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 5.6080668025787876e-05
+        },
+        {
+          "frame": 1,
+          "exponent": 11,
+          "quantum_improvement_db": 24.0823996531185,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 6143,
+            "weak_zero_fraction": 0.004069672798307016,
+            "weak_relative_l1_error": 0.0019191385575473292,
+            "outside_reference_energy_ratio": 0.012829919174915817,
+            "outside_excess_energy_ratio": 4.842637673070248e-06,
+            "power_quantum": 4194304.0,
+            "power_quantization_step_dbc": -80.18739350868046,
+            "outside_reference_peak_dbc": -30.004550424415143,
+            "flat_top": false,
+            "reference_flat_bins": 1,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 5.6080668025787876e-05
+        },
+        {
+          "frame": 2,
+          "exponent": 11,
+          "quantum_improvement_db": 24.0823996531185,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 6143,
+            "weak_zero_fraction": 0.004069672798307016,
+            "weak_relative_l1_error": 0.0019191385575473292,
+            "outside_reference_energy_ratio": 0.012829919174915817,
+            "outside_excess_energy_ratio": 4.842637673070248e-06,
+            "power_quantum": 4194304.0,
+            "power_quantization_step_dbc": -80.18739350868046,
+            "outside_reference_peak_dbc": -30.004550424415143,
+            "flat_top": false,
+            "reference_flat_bins": 1,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 5.6080668025787876e-05
+        },
+        {
+          "frame": 3,
+          "exponent": 11,
+          "quantum_improvement_db": 24.0823996531185,
+          "quality": {
+            "weak_reference_range_dbc": [
+              -90,
+              -40
+            ],
+            "weak_reference_bins": 6143,
+            "weak_zero_fraction": 0.004069672798307016,
+            "weak_relative_l1_error": 0.0019191385575473292,
+            "outside_reference_energy_ratio": 0.012829919174915817,
+            "outside_excess_energy_ratio": 4.842637673070248e-06,
+            "power_quantum": 4194304.0,
+            "power_quantization_step_dbc": -80.18739350868046,
+            "outside_reference_peak_dbc": -30.004550424415143,
+            "flat_top": false,
+            "reference_flat_bins": 1,
+            "definition": "reference >= -30dB plus 2 adjacent bins; all other bins inspected"
+          },
+          "power_relative_l1_error": 5.6080668025787876e-05
+        }
+      ],
+      "original_iq_sha256": "24220ff75e4b2cd61af491fcf846666b55d5eb0ed2f08f0a4b0124faa5c877ae",
+      "native_verification_sha256": "962a9ce9c48252986013c92ad0813c7fe9bc63eb8ed3fdcada0c24d757f4f33d",
+      "baseline_uses_legacy_Hann_rounding": true
+    }
+  ],
+  "source_sha256": {
+    "scripts/check_precision_gain.py": "81032d0c493bebff808964ef5fee3b54da768bf535bfd39f5b290819f480a632",
+    "host/analysis.py": "f682c84c6618ee724e90519ffe28b994c43a0be8b18ead0bec85428883d47efa",
+    "host/spectral_quality.py": "1c1b35f6728daf30ff58ebc7a3d7ce6fc2f8eaa72dceb7e6cea47a191d6bf96e"
+  }
+}

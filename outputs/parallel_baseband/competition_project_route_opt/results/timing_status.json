@@ -1,0 +1,1 @@
+{"wns_ns":1.192,"whs_ns":0.200,"guarded_wns_ns":0.192,"guarded_whs_ns":0.050,"required_setup_margin_ns":1.0,"required_hold_margin_ns":0.15,"implementation_setup_reserve_ns":1.0,"implementation_hold_reserve_ns":0.15,"debug_hold_reserve_ns":0.15,"debug_hold_optimization_target_ns":0.25,"pl_clock_hz":125000000,"samples_per_clock":4,"sample_rate_hz":500000000}

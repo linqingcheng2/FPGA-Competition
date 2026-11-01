@@ -1,0 +1,103 @@
+{
+  "title": "无线通信系统数字基带信号频谱分析电路设计",
+  "track": 2,
+  "source_pdf_sha256": "675e18e5f3b5b9cfe155eb8812e850340c8005cd18357ff3755d214033df2c16",
+  "requirements": [
+    {
+      "id": "R01",
+      "page": 3,
+      "name": "I/Q位宽",
+      "minimum": 12,
+      "unit": "bit"
+    },
+    {
+      "id": "R02",
+      "page": 3,
+      "name": "I/Q数据速率",
+      "minimum": 100,
+      "unit": "MSPS",
+      "scoring": "越高越好，须满足其他指标"
+    },
+    {
+      "id": "R03",
+      "page": 3,
+      "name": "FFT点数",
+      "minimum": 8192
+    },
+    {
+      "id": "R04",
+      "page": 3,
+      "name": "接收IQ至获得频域信息",
+      "maximum": 2,
+      "unit": "ms",
+      "scoring": "越低越好，须满足其他指标"
+    },
+    {
+      "id": "R05",
+      "page": 3,
+      "name": "数字IQ信号带宽",
+      "unit": "MHz",
+      "minimum": null,
+      "note": "原PDF未给出数值门槛，不能自行补造",
+      "scoring": "越高越好，须满足其他指标"
+    },
+    {
+      "id": "R06",
+      "page": 3,
+      "name": "测量幅度、帧长度、频点、带宽"
+    },
+    {
+      "id": "R07",
+      "page": 3,
+      "name": "整体RTL及前仿真功能验证"
+    },
+    {
+      "id": "R08",
+      "page": 3,
+      "name": "整体电路板级测试",
+      "status_source": "当前独立版本板测状态见 results/parallel_board_verification.json；旧固件报告不作本版本依据"
+    }
+  ],
+  "score_weights": {
+    "调研与方案选择": 20,
+    "RTL与仿真验证": 40,
+    "板级测试": 30,
+    "创新与优化": 10
+  },
+  "hardware": {
+    "part": "xc7z020clg400-1",
+    "board": "Zybo Z7-20",
+    "clock_hz": 125000000,
+    "lut_available": 53200,
+    "ff_available": 106400,
+    "bram36_available": 140,
+    "dsp_available": 220,
+    "input_reference_clock_hz": 125000000,
+    "clock_generation": "Direct 125MHz board oscillator through BUFG; no MMCM in 500 MSPS profile; 4 consecutive complex samples per PL clock",
+    "power_source": "USB programming port for this transport optimization; external regulated 5V may be used when available",
+    "power_source_before_external_validation": "USB programming port only (user confirmed)",
+    "board_validation_policy": "USB hardware validation authorized by the user in this session; record the actual supply for each run",
+    "usb_board_current_limit_a": 0.75,
+    "sample_rate_hz": 500000000,
+    "samples_per_clock": 4
+  },
+  "profiles": [
+    {
+      "name": "speed",
+      "fft_points": 8192
+    },
+    {
+      "name": "resolution",
+      "fft_points": 16384
+    }
+  ],
+  "hardware_validation_source": "results/parallel_board_verification.json",
+  "preservation": "Independent parallel version; original releases untouched",
+  "engineering_acceptance": {
+    "minimum_sample_rate_hz": 400000000,
+    "initial_target_sample_rate_hz": 500000000,
+    "minimum_setup_margin_ns": 0.5,
+    "minimum_hold_margin_ns": 0.1,
+    "required": "matched routed timing and actual board continuous zero loss"
+  }
+}

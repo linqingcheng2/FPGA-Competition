@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "samples": 1024,
+  "actual_top_command_path": true,
+  "out_of_range_rejected": true,
+  "bulk_scope_bit_exact": true,
+  "invalid_bulk_addresses_rejected": true,
+  "mocked": [
+    "PLL",
+    "FFT",
+    "VIO endpoint"
+  ],
+  "source_sha256": {
+    "rtl/competition_top.v": "09ccd6602af59616e5095b00620774dc7c34dcc2eedd31732b568c12a5b1f820"
+  }
+}

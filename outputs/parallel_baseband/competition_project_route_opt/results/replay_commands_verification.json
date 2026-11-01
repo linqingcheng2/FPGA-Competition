@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source": "rtl_simulation",
+  "hardware_access": false,
+  "mocked": [
+    "FFT",
+    "VIO endpoint"
+  ],
+  "actual_top_and_clock": true,
+  "packed_words_per_command": 11,
+  "fft_points": [
+    8192,
+    16384
+  ],
+  "exact_samples_checked": 49184,
+  "acknowledgement_after_writes": true,
+  "axi_burst_upload_and_complete_replay_checked": true,
+  "invalid_commands_rejected": 20,
+  "source_sha256": {
+    "rtl/competition_top.v": "09ccd6602af59616e5095b00620774dc7c34dcc2eedd31732b568c12a5b1f820",
+    "rtl/parallel_clock.v": "8ed0f9d0cf3564c2ad1b8e030bb5ed222154d8cd9a07972d05a748b5df9bec3f",
+    "rtl/source4.v": "d9dd1d551b119785223d0af6118142ba0ff093c14af2b5602e9183a404fdfb27",
+    "rtl/iq_replay4.v": "2d3bf3ad37c3c703cb87ca426221cbe78a3199c4a2777c1160abfdad9f3ff3ff",
+    "rtl/debug_axi.v": "e1ea65a42e2571717c65d1200cf7eaf5571fc9821fc649c1f66958293b6c33c9",
+    "tb/tb_top_native.v": "10e05673cca2f2bd03f744af3e8dee53fb99f6aaeabbdb65a20317cd5c6768c4",
+    "tb/jtag_axi_stub.v": "035d6aa08ebdf52b91a0ea746a944ce418ba1a17bf3c1c4ebe3b6cd66684a91a",
+    "scripts/check_replay_commands.py": "e0d52a468b61cd4fc1379b525a8203822bda60383b4500ad0470ac1eda340d67"
+  }
+}

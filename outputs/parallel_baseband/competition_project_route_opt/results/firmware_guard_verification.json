@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "fixtures_are_not_board_evidence": true,
+  "checks": [
+    "complete_matching_fixture",
+    "unprepared",
+    "non_boolean_eligible",
+    "empty_hash_list",
+    "missing_results/competition.bit",
+    "missing_results/competition.ltx",
+    "missing_results/timing_status.json",
+    "missing_results/build_source_hashes.json",
+    "missing_results/simulation_verification.json",
+    "missing_results/offline_suite.json",
+    "missing_rtl/competition_top.v",
+    "missing_rtl/fft4.v",
+    "missing_scripts/live_bridge.tcl",
+    "missing_scripts/axi_bridge.tcl",
+    "missing_host/live_transport.py",
+    "missing_host/analysis.py",
+    "missing_reference/official_problem.pdf",
+    "wrong_sample_rate_hz",
+    "wrong_pl_clock_hz",
+    "wrong_samples_per_clock",
+    "changed_bitstream"
+  ],
+  "source_sha256": {
+    "scripts/check_firmware_guard.py": "42507a08c0dff954f85bbbbf9d19719d2820bfeba419f52f11223ca1b37c6adf",
+    "host/live_transport.py": "38c3a50b12f5f11bc4ce36e9838389922056cf976b75bc8cb11399a73fd3098f"
+  }
+}

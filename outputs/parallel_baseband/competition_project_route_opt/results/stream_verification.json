@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "source": "actual_RTL_stream_with_independent_synchronous_memory_fixture",
+  "board_test": false,
+  "exact_words": 30720,
+  "complete_captures": 15,
+  "cancellation_boundaries": 6,
+  "FFT_sizes": [
+    8192,
+    16384
+  ],
+  "scope_exact_words": 4096,
+  "completed_utc": "2026-10-09T07:19:09.965678+00:00",
+  "source_sha256": {
+    "rtl/debug_stream.v": "a22b4e46525d337f57a75a0c84a2fa1207b2a51c22e1ddeb3cc8f7f3943119c2",
+    "tb/tb_debug_stream.v": "c99838586b39fa87dff3b4cad2ab8edcd22196a67927bf29aa4f2353fec69940",
+    "scripts/check_stream.py": "b6ffd3b08e3628c06bdf7d82457af09a4191ca8b840f6f4231626b0941e58350"
+  },
+  "output_sha256": {
+    "xelab.log": "61408e66b4bfdbeac77a880ab38b15cce9a9b6e00fcdcebb9f28d46f890fea81",
+    "xsim.log": "336fb5ffa06febd7ec6b329013d7c8abde7403c39903ba08be2319f58872bdf4",
+    "xvlog.log": "8149518b26bd4d5ee5d8c6cc21e0f96f29f26bddff03d592dca9e5453642750f"
+  }
+}

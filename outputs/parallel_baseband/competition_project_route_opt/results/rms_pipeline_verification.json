@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source": "actual_RTL_with_independent_integer_square_root_and_unique_metadata",
+  "board_test": false,
+  "exact_jobs": 4521,
+  "input_cycles": 6100,
+  "latency_clocks": 37,
+  "checks": [
+    "one_job_every_clock",
+    "random_valid_gaps",
+    "live_reset_discards_in_flight_jobs",
+    "all_176_metadata_bits",
+    "floor_sqrt_floor_energy_div_count",
+    "minimum_and_maximum_count"
+  ],
+  "completed_utc": "2026-10-09T07:19:23.143946+00:00",
+  "source_sha256": {
+    "rtl/rms_pipeline.v": "cde2b4fd34aa4587b5b5de9a66806a2ac62facdf6309ec9f161b1092c27564aa",
+    "scripts/check_rms_pipeline.py": "35bbbe1e90689e8f15f6aaa0481bb4d92efbe6f47780957853a5591eccd70bfd"
+  },
+  "output_sha256": {
+    "jobs.mem": "6965e3bdb9c2d7e50edfe4dac97c9bee353ccb9226eb057f63d50f9a6d3599e9",
+    "results.csv": "42acc21b85b88a697eee6cc82c12238e93130900b71760d7e85bac9025e63fd2",
+    "tb.v": "7faddc0f6ea71fa49f12936d4beb0fafb35846f7051ea21a69ce0ed6bc01aa57",
+    "xelab.log": "4a3bb9dc0a60a4db90a5a283b045b8a16eef9f4a4ca4365468196a128c162c2d",
+    "xsim.log": "4a7eb5a7cb01b0efac3c20bb6b13b1459aefe4a042d13a2ddb5e4b505d21850f",
+    "xvlog.log": "06c952507b767afe0a0be1738a79e86fd39aa777adef14918904bb4dc28340da"
+  }
+}

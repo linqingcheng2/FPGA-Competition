@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "independent_crc": true,
+  "complete_upload_sizes": [
+    8192,
+    16384
+  ],
+  "complete_spectrum_read_sizes": [
+    8192,
+    16384
+  ],
+  "backpressure": true,
+  "malformed_uploads": 7,
+  "invalid_reads": 6,
+  "source_sha256": {
+    "rtl/debug_axi.v": "e1ea65a42e2571717c65d1200cf7eaf5571fc9821fc649c1f66958293b6c33c9",
+    "scripts/check_axi.py": "1c3c0525ac38ec9fb20acd52b5ff537a45184fc27674436802fd1ed019f42902"
+  }
+}

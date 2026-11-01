@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "source": "offline_cache_guard",
+  "hardware_access": false,
+  "simulator_executed": false,
+  "rejected_scenarios": [
+    "active_source_newer_than_compiled_model",
+    "simulation_ip_differs_from_implemented_ip"
+  ],
+  "validated_scenarios": [
+    "checker_and_reference_recheck_original_output_without_simulator"
+  ],
+  "source_sha256": {
+    "scripts/run_native_matrix.py": "1dd3ced5339ca85eb9dd22c79f129a6ed407180902c5441951c7e774a6ccd4a0",
+    "scripts/check_numeric.py": "94955b8b8423bc4d71a98d2e145053a10ab90921f6a2195fc1c19017336b026d",
+    "scripts/check_native_cache_guard.py": "256ac8408b4b7ee78fe6cd3cbddb1685a15d5064c11cf4cd9af5743b963b27ca"
+  }
+}

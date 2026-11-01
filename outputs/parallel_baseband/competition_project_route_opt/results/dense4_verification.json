@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "bursts": 4096,
+  "period_samples": 8,
+  "burst_samples": 4,
+  "quiet_samples": 4,
+  "drops": 0,
+  "fields_exact": true,
+  "source_sha256": {
+    "rtl\\time4.v": "200c5fe167f54ea5957ea416e63dc1e1070804826aa9d044b5bf0ff6a363fad9",
+    "rtl\\rms_pipeline.v": "cde2b4fd34aa4587b5b5de9a66806a2ac62facdf6309ec9f161b1092c27564aa"
+  }
+}

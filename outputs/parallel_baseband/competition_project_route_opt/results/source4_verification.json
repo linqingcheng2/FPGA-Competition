@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "cases": 8,
+  "consecutive_samples_per_case": 1024,
+  "modes": [
+    "tone",
+    "chirp",
+    "qpsk",
+    "two_tone"
+  ],
+  "noise": [
+    false,
+    true
+  ],
+  "source_sha256": {
+    "rtl\\source4.v": "d9dd1d551b119785223d0af6118142ba0ff093c14af2b5602e9183a404fdfb27",
+    "rtl\\sin_256x12.mem": "06a00fc6903e67e38c43d5febded5f4cf0a918ac620d147a49322c214220cad6"
+  }
+}

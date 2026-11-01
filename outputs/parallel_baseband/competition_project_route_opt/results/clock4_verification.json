@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "direct_clock_hz": 125000000,
+  "alternate_clock_hz": 100000000,
+  "reset_assertion_async": true,
+  "reset_release_cycles": 4,
+  "clock_uninterrupted_during_reset": true,
+  "source_sha256": {
+    "rtl/parallel_clock.v": "8ed0f9d0cf3564c2ad1b8e030bb5ed222154d8cd9a07972d05a748b5df9bec3f",
+    "scripts/board.xdc": "822c1cd7ae5712b484ec56486e694bca67d271383ea5c1f71f988259ed03b8b5"
+  }
+}

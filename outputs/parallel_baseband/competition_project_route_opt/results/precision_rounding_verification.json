@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "cases": 75985,
+  "method": "actual_RTL_functions_vs_independent_exact_integer_ties_even_reference",
+  "covers": [
+    "signed_alignment_0_to_24_bits",
+    "twiddle_guard_width",
+    "radix4_combine",
+    "public_power"
+  ],
+  "source_sha256": {
+    "rtl/fft4.v": "f8a04c1c028fd33969e16945a0017ea684af686d6689a71e116325e5cc3c060c",
+    "scripts/check_precision_rounding.py": "b02825911745680ffe2a8596bae62241ea378047db8f83dae020ac0dc924edd9"
+  }
+}

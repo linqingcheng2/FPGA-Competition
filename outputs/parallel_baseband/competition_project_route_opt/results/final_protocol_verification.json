@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    "Tcl_physical_word_order",
+    "physical_hex_archive_preserves_words_and_rejects_invalid_data",
+    "included_AXI_progress_decoded_as_UTF8",
+    "Tcl_crc_little_endian",
+    "error_classification",
+    "real_attach_reset_command_sequence",
+    "cancellation_at_upload_to_capture_boundary_prevents_start",
+    "last_download_block_cancellation_keeps_only_pending_raw_data",
+    "full_spectrum_scope_conversion",
+    "reopen_physical_AXI_evidence_without_mutation",
+    "reject_changed_archived_AXI_data",
+    "reject_short",
+    "reject_duplicate",
+    "reject_reorder",
+    "reject_overflow",
+    "reject_missing_word",
+    "reject_changed_freeze",
+    "32bit_frame_identity_with_16bit_compatibility_tag"
+  ],
+  "hardware_access": false,
+  "source_sha256": {
+    "host/axi_capture.py": "74f842dcdbcd5722c5ac8075cac41970dc37a9e6db4fba18eec26b0e021a97eb",
+    "host/capture.py": "9a8a1c7cc7f8e1137f99088d882b796e14d72f7866a8980ca6dae7b09cf2ef5d",
+    "host/live_transport.py": "38c3a50b12f5f11bc4ce36e9838389922056cf976b75bc8cb11399a73fd3098f",
+    "host/spectral_quality.py": "1c1b35f6728daf30ff58ebc7a3d7ce6fc2f8eaa72dceb7e6cea47a191d6bf96e",
+    "host/capture_validation.py": "e1a84396afe39fc1309da6700429ed3b5fd6e82391578a2b70dddeba6d5d3c62",
+    "host/app.py": "dc821ec772492ad3f34d89f2cf4cf35da16816680b94d5dd334a4dea7ddaad7d",
+    "scripts/live_bridge.tcl": "3125b13b37a19922e572a44e0fda25bd2a8540532f44d6049e4bca5dcd944c92",
+    "scripts/axi_bridge.tcl": "5121172b5819adf1e8176460b0a6d9312ed83826afd88dd00dc43537bbe206ce",
+    "scripts/check_final_protocol.py": "9b82500f3c205b12b9ea9571cc668ee0511d1f1c27ef991214fe49261329ad4c"
+  }
+}

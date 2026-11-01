@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "cases": 34,
+  "fields": [
+    "peak",
+    "lo",
+    "hi",
+    "bw3",
+    "obw",
+    "peak_power"
+  ],
+  "full_scale_random": true,
+  "quarter_boundaries": true,
+  "full_frozen_readback_all_bins": true,
+  "bulk_stream_all_bins_bit_exact": true,
+  "source_sha256": {
+    "rtl\\debug_stream.v": "a22b4e46525d337f57a75a0c84a2fa1207b2a51c22e1ddeb3cc8f7f3943119c2",
+    "rtl\\spectrum4.v": "c56e4cde0d892ebce308602de24257c3097493adace95ef14a7767d15e2a6953",
+    "rtl\\prefix_ram.v": "834a6dfa7695d03610915eab4058680e45efe318a158ae80edf26114b1b86c00",
+    "rtl\\unsigned_divide.v": "5441774faad416a87b00ee9cf233d14d0e5e87c8cf9db60ddb72f79c2032df6d"
+  }
+}

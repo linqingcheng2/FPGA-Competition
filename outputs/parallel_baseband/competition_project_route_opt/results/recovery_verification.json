@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "cases": [
+    {
+      "error": "[Xicom 50-38] Unable to connect",
+      "failed_retry": false,
+      "cancel": false,
+      "retries": 1
+    },
+    {
+      "error": "[Labtools 27-3176] lost",
+      "failed_retry": false,
+      "cancel": false,
+      "retries": 1
+    },
+    {
+      "error": "[Xicom 50-38] Unable to connect",
+      "failed_retry": true,
+      "cancel": false,
+      "retries": 1
+    },
+    {
+      "error": "FPGA\u62d2\u7edd\u547d\u4ee43\uff0c\u9519\u8bef\u78012",
+      "failed_retry": false,
+      "cancel": false,
+      "retries": 0
+    },
+    {
+      "error": "\u91c7\u96c6\u5df2\u53d6\u6d88",
+      "failed_retry": false,
+      "cancel": false,
+      "retries": 0
+    },
+    {
+      "error": "[Xicom 50-38] lost",
+      "failed_retry": false,
+      "cancel": true,
+      "retries": 0
+    },
+    {
+      "cancel_phase": "before_decode",
+      "published": false,
+      "retries": 0
+    },
+    {
+      "cancel_phase": "during_decode",
+      "published": false,
+      "retries": 0
+    }
+  ],
+  "source_sha256": {
+    "host/live_transport.py": "38c3a50b12f5f11bc4ce36e9838389922056cf976b75bc8cb11399a73fd3098f",
+    "scripts/check_recovery.py": "93edeaf19a3b0d55d71643d7bc203821564b53fe0880971feb303747177cf56c"
+  }
+}

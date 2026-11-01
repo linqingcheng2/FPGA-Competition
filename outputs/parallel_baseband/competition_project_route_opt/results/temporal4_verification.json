@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "cases": 32,
+  "samples": 70824,
+  "segment_limit": 16384,
+  "qualification_offsets": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "exact_fields": [
+    "length",
+    "duration",
+    "energy",
+    "rms",
+    "peak_i",
+    "peak_q",
+    "rails",
+    "flags"
+  ],
+  "source_sha256": {
+    "rtl\\time4.v": "200c5fe167f54ea5957ea416e63dc1e1070804826aa9d044b5bf0ff6a363fad9",
+    "rtl\\rms_pipeline.v": "cde2b4fd34aa4587b5b5de9a66806a2ac62facdf6309ec9f161b1092c27564aa"
+  }
+}

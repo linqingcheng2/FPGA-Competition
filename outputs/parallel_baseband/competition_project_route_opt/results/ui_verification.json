@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "title": "数字基带测量仪 · 500 MSPS 预综合候选版",
+  "selected_sample_msps": 500,
+  "project": "ARCHIVE_PATH/competition_project_route_opt",
+  "auto_program": false,
+  "tabs": [
+    "完整频谱",
+    "时域快照",
+    "频谱历史",
+    "比赛验证",
+    "诊断与上板",
+    "参考对比"
+  ],
+  "layout_source": "original_layout_theme_plotting_widgets",
+  "source_sha256": {
+    "../measurement_console_route_opt/comparison.py": "229e5211dfddbcc8c136fde67f4e27e37c37e26d4ffc34f8c01e93057b798241",
+    "../measurement_console_route_opt/comparison_view.py": "539a98a9f515c7829f697b1433bd3bff7176f42cc74d342b3cad1b62e8825eba",
+    "../measurement_console_route_opt/compliance.py": "e72c78e3d46a72bb1f91b22c933db5723d9e1fe1aca022de801f943e5beafcb1",
+    "../measurement_console_route_opt/compliance_view.py": "9d816e479ce6dc2606dcf3e4c453eebbd7af20dc2a491c5ceb72bfae52f23253",
+    "../measurement_console_route_opt/console.py": "a360a9ce9b8a407f77c4c1f06758f592a0717548a35429f52b20354510547a15",
+    "../measurement_console_route_opt/layout.py": "0650cdb0a83843cdbe6c7c01696ac7c940289eb1aa8865130c0d3a012cdcfef2",
+    "../measurement_console_route_opt/plotting.py": "b0d0083cd98d11e62db473f63e082c4ab38e7ce715cd32384d9bed940649d2cc",
+    "../measurement_console_route_opt/render_scene.py": "e2479d9c518efaa7cdaab51242f04bc1a91f5fc157ab7a345c32314625a3882a",
+    "../measurement_console_route_opt/run_125_adapter.py": "03d0e6c2740c054dcca73f3699eb3cc19e96d2fc3eb7a135affadef23a91d755",
+    "../measurement_console_route_opt/run_console.py": "708aaa66809184ec44688bece17661e16eb503655a4abc16c0bceeac99224171",
+    "../measurement_console_route_opt/single_instance.py": "856aa39bb3c4267e43c3a3d307f9c7594a3b35c7bbab41bd907f91ea3a2d14eb",
+    "../measurement_console_route_opt/theme.py": "cfb562a201ee5e3249f11d25c41a0dc025434c864149ea61513862ff2c31546f",
+    "../measurement_console_route_opt/verify_live_ui.py": "3f9b9870342b801e4a72743eaa7db59a9a1aba40e002d6d90e62eaebcadb7f1f",
+    "../measurement_console_route_opt/version_switch.py": "b91b332d6ee5217accb75d26bdd145d2484310f57faa38f1620edc089b73676a",
+    "../measurement_atelier_route_opt/atelier.py": "e2fa10c4dfcf56fc0c321573b26bd83a98256161911161145481541692b6109b",
+    "../measurement_atelier_route_opt/iq_import.py": "283b08eaa02f7cad698b6e9fcd2241bd13ed0ed1979e12e070f5efbf7f9f7d30",
+    "../measurement_atelier_route_opt/package_score.py": "fdd565f6252bd1d512a262aeca1fc759c9fe5d34ad6318029841b527dcb95d53",
+    "../measurement_atelier_route_opt/preview_design.py": "763867ced7633f1a547ea72c36197724a86ae40ccaec5f8594c5c5e9db1fa3c0",
+    "../measurement_atelier_route_opt/render_scene.py": "41f77b022d4255042cfc19a0e88f0f0c80be96c9a5f82f8b38d7683c1ce49922",
+    "../measurement_atelier_route_opt/run_atelier.py": "5477a4617346edb75a2e844d6c5e82d1c99705814f772c1c26af4c2c23107f3d",
+    "scripts/check_ui.py": "0f42de271199c75d460e290511aed77bf685704be506f24944a662580cf063dc"
+  }
+}

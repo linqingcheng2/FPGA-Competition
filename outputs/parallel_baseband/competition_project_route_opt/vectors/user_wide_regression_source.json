@@ -1,0 +1,8 @@
+{
+  "source": "exact_full_IQ_from_original_user_wide_record",
+  "original_folder": "ARCHIVE_PATH/20261006_215435_ce1569c2",
+  "vector_sha256": "07bf9b98d0202c208716fd9d841f7d823cabe3780b3a8cdda40a610fe5dc3de3",
+  "n": 16384,
+  "hann": false,
+  "fs_hz": 500000000
+}

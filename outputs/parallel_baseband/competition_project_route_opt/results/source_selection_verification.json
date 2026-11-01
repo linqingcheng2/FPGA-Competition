@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "ordered_samples_per_source": 1024,
+  "actual_top_commands": true,
+  "inactive_generator_held": true,
+  "one_shot_quiesces_at_complete_frame": true,
+  "continuous_resumes": true,
+  "mocked": [
+    "FFT",
+    "VIO endpoint",
+    "spectrum/time freeze flags in quiescence test"
+  ],
+  "source_sha256": {
+    "rtl/competition_top.v": "09ccd6602af59616e5095b00620774dc7c34dcc2eedd31732b568c12a5b1f820",
+    "rtl/parallel_clock.v": "8ed0f9d0cf3564c2ad1b8e030bb5ed222154d8cd9a07972d05a748b5df9bec3f",
+    "rtl/source4.v": "d9dd1d551b119785223d0af6118142ba0ff093c14af2b5602e9183a404fdfb27",
+    "rtl/iq_replay4.v": "2d3bf3ad37c3c703cb87ca426221cbe78a3199c4a2777c1160abfdad9f3ff3ff"
+  }
+}

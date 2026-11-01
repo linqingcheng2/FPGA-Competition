@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "source": "offline_acceptance_logic",
+  "hardware_access": false,
+  "valid_supply_modes": [
+    "external_5v",
+    "usb"
+  ],
+  "rejected_invalid_evidence": [
+    "simulation_origin",
+    "partial_matrix",
+    "repeated_case",
+    "incomplete_run",
+    "different_bitstream",
+    "different_validation_inputs",
+    "supply_not_declared",
+    "unknown_supply",
+    "missing_scope",
+    "nonfinite_spectrum_error",
+    "incorrect_temporal_result",
+    "zero_latency",
+    "hardware_fault",
+    "shorter_than_60s",
+    "nonpositive_timestamp_interval",
+    "ambiguous_counter_wrap",
+    "cached_rate_hides_low_samples",
+    "implausible_excess_rate",
+    "missing_burst_results",
+    "stale_summary"
+  ],
+  "source_sha256": {
+    "host/board_acceptance.py": "586cbdf840dfb9885b2dd68e68be7ace8356a5a7d4e68f6865cc932c14ad36ed",
+    "scripts/check_board.py": "87c7afbd60b1c0701e38f1b14de305f17a6d1bda6e89d29e616cf1bcdc10c363",
+    "scripts/finalize_firmware.py": "630ba2f702d13c49f509deb7cbfb99c90998b7bf62867e408ef0e91bccc4a033",
+    "scripts/check_board_acceptance.py": "783041ca663d0e0de4405025aa2c58a75d728d6e9564b0b374b77c71afc20a21"
+  }
+}
